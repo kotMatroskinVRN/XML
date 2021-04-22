@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xkit>
+
+    <tech>
+        <name>xs018</name>
+
+        <lib>
+            <name>IO_CELLS_JIC3V</name>
+            <type>IO</type>
+            <pair>D_CELLS_JI3V</pair>
+            <LEFdir>.xkit/setup/xs018/diglibs/IO_CELLS_JIC3V/LEF/</LEFdir>
+        </lib>
+
+        <lib>
+            <name>IO_CELLS_JI3V</name>
+            <type>IO</type>
+            <pair>D_CELLS_JI3V</pair>
+            <LEFdir>.xkit/setup/xs018/diglibs/IO_CELLS_JI3V/LEF/</LEFdir>
+        </lib>
+
+        <lib>
+            <type>CORE</type>
+            <name>D_CELLS_JI3V</name>
+            <buffer>BUJI3VX2</buffer>
+            <cells>
+                BUJI3VX2
+                DFFQJI3VX1
+                NA2I1JI3VX2
+            </cells>
+            <xkitLEF>.xkit/setup/xs018/diglibs/${libName}/LEF/xs018_D_CELLS_JI3V.lef</xkitLEF>
+        </lib>
+
+    </tech>
+    <tech>
+        <name>xh018</name>
+
+        <lib>
+            <name>IO_CELLS_JIC3V</name>
+            <type>IO</type>
+            <pair>D_CELLS_JI3V</pair>
+            <LEFdir>.xkit/setup/xh018/diglibs/IO_CELLS_JIC3V/LEF/</LEFdir>
+        </lib>
+
+        <lib>
+            <name>IO_CELLS_JI3V</name>
+            <type>IO</type>
+            <pair>D_CELLS_JI3V</pair>
+            <LEFdir>.xkit/setup/xh018/diglibs/IO_CELLS_JI3V/LEF/</LEFdir>
+        </lib>
+
+        <lib>
+            <name>D_CELLS_JI3V</name>
+            <type>CORE</type>
+            <buffer>BUJI3VX2</buffer>
+            <cells>
+                BUJI3VX2
+                DFFQJI3VX1
+                NA2I1JI3VX2
+            </cells>
+            <xkitLEF>.xkit/setup/xh018/diglibs/${libName}/LEF/xh018_D_CELLS_JI3V.lef</xkitLEF>
+        </lib>
+
+        <lib>
+            <name>D_CELLS_JI3V</name>
+            <type>CORE</type>
+            <buffer>BUJI3VX2</buffer>
+            <cells>
+                BUJI3VX2
+                DFFQJI3VX1
+                NA2I1JI3VX2
+            </cells>
+            <xkitLEF>.xkit/setup/xh018/diglibs/${libName}/LEF/xh018_D_CELLS_JI3V.lef</xkitLEF>
+        </lib>
+
+    </tech>
+
+
+</xkit>

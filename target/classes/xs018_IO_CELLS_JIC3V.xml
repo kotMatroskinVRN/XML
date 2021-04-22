@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup>
+    <netlist>
+         src/com/VerilogNetlist/netlist_draft/IO_CELLS_JIC3V_ring_pwrc.v
+         src/com/VerilogNetlist/netlist_draft/IO_CELLS_JIC3V_ring_pwrc2.v
+         src/com/VerilogNetlist/netlist_draft/IO_CELLS_JIC3V_ring_or.v
+         src/com/VerilogNetlist/netlist_draft/IO_CELLS_JIC3V_ring_all.v
+         src/com/VerilogNetlist/netlist_draft/IO_CELLS_JIC3V_ring.v
+    </netlist>
+    <iolef>src/com/VerilogNetlist/xs018_xx31_MET3_METMID_IO_CELLS_JIC3V.lef</iolef>
+    <corelef>src/com/VerilogNetlist/xs018_D_CELLS_JI3V.lef</corelef>
+    <tech>xs018</tech>>
+    <iolib>IO_CELLS_JIC3V</iolib>
+    <auxXML>src/com/VerilogNetlist/CoreRefIO.xml</auxXML>
+
+</setup>
